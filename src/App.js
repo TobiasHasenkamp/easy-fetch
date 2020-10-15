@@ -11,7 +11,8 @@ function App() {
     <div className="App">
 
         {
-            characterList.map(character => <CharacterCard>{character.name}, {character.status}</CharacterCard>)
+            characterList.map(character => <p>{character.name}, {character.status}</p>)
+
         }
 
     </div>
